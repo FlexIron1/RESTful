@@ -1,1 +1,1 @@
-package Rest.client;public class Main {	public static void main(String[] args){		HttpRestGet restGet = new HttpRestGet ();		restGet.get ();	}}
+package Rest.client;public class Main {	public static void main(String[] args){		HttpRestGet restGet = new HttpRestGet ();		restGet.get ();		HttpRestPost httpRestPost = new HttpRestPost ();		httpRestPost.post ();	}}
